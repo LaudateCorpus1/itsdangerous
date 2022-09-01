@@ -6,8 +6,8 @@
 #
 attrs==21.4.0
     # via pytest
-freezegun==1.1.0
-    # via -r requirements/tests.in
+freezegun==1.2.2
+    # via -r tests.in
 iniconfig==1.1.1
     # via pytest
 packaging==21.3
@@ -19,7 +19,7 @@ py==1.11.0
 pyparsing==3.0.6
     # via packaging
 pytest==6.2.5
-    # via -r requirements/tests.in
+    # via -r tests.in
 python-dateutil==2.8.2
     # via freezegun
 six==1.16.0
